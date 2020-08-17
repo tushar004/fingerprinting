@@ -1,0 +1,64 @@
+{
+  "_from": "biri",
+  "_id": "biri@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-4220GO/vLDMwAE8N00etyHyJstO1YhQeQr9dCndHg/pUynCQigCpggWhVgCYHygLENrJ92szcAbq80zckVHmkw==",
+  "_location": "/biri",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "biri",
+    "name": "biri",
+    "escapedName": "biri",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/biri/-/biri-0.3.0.tgz",
+  "_shasum": "fe9feba79db95195605b82e2f0ba53d2aecad2f0",
+  "_spec": "biri",
+  "_where": "/home/decimal/Documents/my/uuid",
+  "author": {
+    "name": "Armagan Amcalar",
+    "email": "armagan@amcalar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dashersw/biri/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A unique, static client ID generator for browser applications",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "homepage": "https://github.com/dashersw/biri#readme",
+  "jsdelivr": "dist/biri.min.js",
+  "keywords": [
+    "unique",
+    "id",
+    "session"
+  ],
+  "license": "GPL",
+  "main": "index.js",
+  "name": "biri",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashersw/biri.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "unpkg": "dist/biri.min.js",
+  "version": "0.3.0"
+}
